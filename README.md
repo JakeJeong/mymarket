@@ -43,8 +43,14 @@ git clone https://github.com/mjkong/mymarket
 cd mymarket
 </code></pre>
 
-### Fabric Docker Image Donwload 및 유틸 설치
-<pre><code>curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0</code></pre>
+### Fabric tool 설정
+bin 환경변수 경로 설정
+<pre><code>ls bin
+mkdir ~/bin
+ln -s $(pwd)/bin/* ~/bin/
+ls -l ~/bin/
+peer
+</code></pre>
 
 ### Fabric 네트워크를 위한 아티팩트 생성
 
